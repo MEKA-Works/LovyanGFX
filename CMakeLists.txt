@@ -24,7 +24,7 @@ file(GLOB SRCS
 set(COMPONENT_SRCS ${SRCS})
 find_package(LCD COMPONENTS esp_lcd QUIET)
 if (NOT LCD_FOUND)
-   set(COMPONENT_REQUIRES nvs_flash efuse)
+   set(COMPONENT_REQUIRES nvs_flash efuse esp_lcd)
 else()
   set(COMPONENT_REQUIRES nvs_flash efuse esp_lcd)
 endif()

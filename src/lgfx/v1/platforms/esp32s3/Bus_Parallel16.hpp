@@ -17,7 +17,7 @@ Contributors:
 /----------------------------------------------------------------------------*/
 #pragma once
 
-#if __has_include (<esp_lcd_panel_io.h>)
+#if 1
 #include <esp_lcd_panel_io.h>
 #include <esp_private/gdma.h>
 #include <hal/dma_types.h>

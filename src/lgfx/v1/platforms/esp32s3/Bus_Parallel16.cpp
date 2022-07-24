@@ -15,10 +15,10 @@ Contributors:
  [mongonta0716](https://github.com/mongonta0716)
  [tobozo](https://github.com/tobozo)
 /----------------------------------------------------------------------------*/
-#if defined (ESP_PLATFORM)
+#if 1
 #include <sdkconfig.h>
-#if defined (CONFIG_IDF_TARGET_ESP32S3)
-#if __has_include (<esp_lcd_panel_io.h>)
+#if 1
+#if 1
 #include <esp_lcd_panel_io.h>
 
 #include "Bus_Parallel16.hpp"
